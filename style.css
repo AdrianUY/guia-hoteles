@@ -1,12 +1,13 @@
-.junbotrom{
-    text-align: center;
-background-color: 0,0,0,2;
-}
+
 .container{
-    padding: 10%;
+    padding: 0%;
 }
 
 button{
     background-color: rgb(50, 135, 205);
     border-radius: 10%;
 }
+.footer-address-icon{
+    padding: 5%;
+}
+
