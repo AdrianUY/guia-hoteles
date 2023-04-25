@@ -1,6 +1,6 @@
 
 body {
-    margin-top: 60px; /* ajusta el valor del margen superior según la altura de tu barra de navegación */
+    margin-top: 56px; /* ajusta el valor del margen superior según la altura de tu barra de navegación */
   }
 
   .card-container{
@@ -9,6 +9,7 @@ body {
     justify-content: space-between;
   }
 
+
   .card-hotel {
  display: flex;
  flex-direction: column;
@@ -16,7 +17,13 @@ body {
  border: 1px solid #ccc;
  border-radius: 5px;
  overflow: hidden;
+ margin: 5px;
  }
+
+ .card img{
+  object-fit: cover;
+ }
+
   .jumbotrom {
     background-color: #007bff;
     height: 56px;
@@ -25,9 +32,9 @@ body {
   h1 {
     color: aliceblue;
   }
-.col-md-4 {
-  color: blue;
-}
+  h3{
+    color: #007bff;
+  }
 .btn {
     background-color: rgb(50, 135, 205);
 }
