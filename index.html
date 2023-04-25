@@ -6,33 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Responsivo Metaetiqueta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Evaluacion Modulo 1</title>
     <!-- Bootstrap CSS -->
     <link rel= "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
     <!-- Link Estilos CSS -->
     <link href="style.css" rel="stylesheet">
     <!-- Iconos de Boostrap -->
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Luxury Hotels</title>
 </head>
-
 <body>
   <!-- Navbar fixed -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dlux Hoteles</a>
+      <a class="navbar-brand" href="#">Luxury Hotels</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="about.html">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Planes</a>
+            <a class="nav-link" href="planes.html">Planes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Reservas</a>
@@ -45,72 +44,82 @@
       </div>
     </div>
   </nav>
-  
     <div class="jumbotrom">
-        <h1>Hoteles</h1>
+      <h1>Hoteles</h1>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
+        <p>
         <h3>Como funciona?</h3>
         <p>Busca hoteles de acuerdo a tu preferencia.</p>
+        </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
+        <p>
         <h3>Donde puedo reservar?</h3>
         <p>Elegi el hotel que te interese y luego reserva con tus datos</p>
+        </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
+        <p>
         <h3>Como pago?</h3>
         <p>Utiliza cualquier medio de pago</p>
+        </p>
       </div>
     </div>
     
- <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Hotel Copenhague</h3>
-        <p>Habitaciones Dlux ubicado en el centro</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+  <div class="card-container">
+    <div class="card-hotel">
+        <a href="https://www.restaurantegarzon.com/el_hotel" class="enlace-animado"><h3>Garzon</h3></a>
+        <img src="img/garzon.jpg" alt="foto de hotel garzon">
+        <p>Habitaciones de lujo en Pueblo Garzon</p>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-      <div class="col-md-3">
-        <h3>Hotel Barcelona</h3>
-        <p>Hubicado en la playa</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+    <div class="card-hotel">
+        <a href="https://laspiedrasfasano.com/es/" class="enlace-animado"> <h3>Fasano Las Piedras</h3></a>
+        <img src="img/fasano.jpg" alt="foto de hotel fasano">
+        <p>Hubicado en el centro ecuestre mas completo</p>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-      <div class="col-md-3">
-        <h3>Hotel Rio de Janeiro</h3>
-        <p>Habitaciones dobles en Copacabana</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+      <div class="card-hotel">
+        <a href="https://es.lasusana.com/" class="enlace-animado"><h3>La Susana</h3></a>
+        <img src="img/la susana.jpg" alt="foto de hotel la susana">
+        <p>Habitaciones sobre la playa</p>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-      <div class="col-md-3">
-        <h3>Gran Hotel Punta del Este</h3>
+      <div class="card-hotel">
+        <a href="https://www.puntagrand.com/" class="enlace-animado"><h3>Gran Hotel</h3></a>
+        <img src="img/granhotel.jpg" alt="foto de gran hotel">
         <p>5 estrellas ubicado en la costa</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Hotel Vik Jose Ignacio</h3>
+      <div class="card-container">
+      <div class="card-hotel">
+        <a href="https://www.playavik.com/" class="enlace-animado"><h3>Vik Jose Ignacio</h3></a>
+        <img src="img/vik.jpg" alt="foto de hotel playa vik">
         <p>Exclusivo sobre la costa</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-      <div class="col-md-3">
-        <h3>Hotel Las Vegas</h3>
+      <div class="card-hotel">
+        <a href="https://www.laubergehotel.com/" class="enlace-animado"><h3>L'Auberge </h3></a>
+        <img src="img/logerge.jfif" alt="foto de hotel loberge">
         <p>Casino todo el año</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-      <div class="col-md-3">
-        <h3>Hotel Las Liebres</h3>
+      <div class="card-hotel">
+        <a href="https://www.lasliebres.com.uy/" class="enlace-animado"><h3>Las Liebres</h3></a>
+        <img src="img/liebres.jpg" alt="foto de hotel las liebres">
         <p>Ciudad de Colonia Uruguay</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-      <div class="col-md-3">
-        <h3>Hotel Aqua</h3>
+      <div class="card-hotel">
+        <a href="https://hotelaqua.uy/" class="enlace-animado"><h3>Aqua</h3></a>
+        <img src="img/aqua.jfif" alt="foto de hotel aqua">
         <p>En Punta del Este, Uruguay</p>
-        <button class="btn btn-primary">Reserva <i class="bi bi-plus-circle"></i></button>
+        <button class="btn btn-primary btn-sm">Reserva <i class="bi bi-plus-circle"></i></button>
       </div>
-    </div>
+      </div>
   </div>
-
     <div class="container">
         <div class="row">
           <div class="col-sm-4">
@@ -130,9 +139,7 @@
     <h6>Html</h6>
     <h6>Boostrap</h6>
     <h6>Css</h6>
-
 </li>
-
         </ul>
     </div>
         <div class="col-sm-4 text-right">
@@ -159,7 +166,6 @@
               role="button"
               ><i class="fab fa-facebook-f"></i
             ></a>
-      
             <!-- Twitter -->
             <a
               class="btn text-white btn-floating m-1"
@@ -168,7 +174,6 @@
               role="button"
               ><i class="fab fa-twitter"></i
             ></a>
-      
             <!-- Google -->
             <a
               class="btn text-white btn-floating m-1"
@@ -177,7 +182,6 @@
               role="button"
               ><i class="fab fa-google"></i
             ></a>
-      
             <!-- Instagram -->
             <a
               class="btn text-white btn-floating m-1"
@@ -186,7 +190,6 @@
               role="button"
               ><i class="fab fa-instagram"></i
             ></a>
-      
             <!-- Linkedin -->
             <a
               class="btn text-white btn-floating m-1"
@@ -204,15 +207,11 @@
               ><i class="fab fa-github"></i
             ></a>
           </section>
-          <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
-      
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: black;">
           © 2023 Copyright:
           <a class="text-white" href="https://mdbootstrap.com/">Adrian Barca</a>
         </div>
-        <!-- Copyright -->
       </footer>
 </html>
