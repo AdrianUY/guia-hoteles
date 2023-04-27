@@ -1,233 +1,243 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <!-- Compatibilidad IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Responsivo Metaetiqueta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel= "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
-    <!-- Link Estilos CSS -->
-    <link href="style.css" rel="stylesheet">
-    <!-- Iconos de Boostrap -->
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <title>Luxury Hotels</title>
-</head>
-<body>
-  <!-- Navbar fixed -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Luxury Hotels</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="planes.html">Planes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reservas</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn btn-outline-light" type="submit">Buscar</button>
-        </form>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <!-- Compatibilidad IE -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Responsivo Metaetiqueta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link rel= "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
+      <!-- Link Estilos CSS -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Iconos de Boostrap -->
+      <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+      <title>Luxury Hotels</title>
+  </head>
+  <body>
+    <!-- Navbar fixed -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Luxury Hotels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="planes.html">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reserva.html">Reservas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-    <div class="jumbotrom">
-      <h1>Hoteles</h1>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <p>
-        <h3>Como funciona?</h3>
-        <p class="card-text">Busca hoteles de acuerdo a tu preferencia.</p>
-        </p>
+    </nav>
+      <div class="jumbotrom">
+        <h1>Hoteles</h1>
       </div>
-      <div class="col-sm-4">
-        <p>
-        <h3>Donde puedo reservar?</h3>
-        <p class="card-text">Elegi el hotel que te interese y luego reserva con tus datos</p>
-        </p>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>
+          <h3>Como funciona?</h3>
+          <p class="card-text">Busca hoteles de acuerdo a tu preferencia.</p>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+          <h3>Donde puedo reservar?</h3>
+          <p class="card-text">Elegi el hotel que te interese y luego reserva con tus datos</p>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+          <h3>Como pago?</h3>
+          <p class="card-text">Utiliza cualquier medio de pago</p>
+          </p>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <p>
-        <h3>Como pago?</h3>
-        <p class="card-text">Utiliza cualquier medio de pago</p>
-        </p>
-      </div>
-    </div>
 
-    <div class="img-fluid">
-    <img src="img/Panoramica_playa_idilica.jpg" alt="responsive image">
-    </div>
-  
-    <div class="container">
-      <div class="row g-3">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="img/granhotel.jpg" alt="foto del gran hotel" class="card-img-top">
-              <div class="card-body">
-                <a href="https://www.puntagrand.com/" class="enlace-animado"><h3>Gran Hotel</h3></a>
-                <p class="card-text">Distinguido por su inigualable vista al mar, THE GRAND HOTEL 
-                  es un oasis de lujo, estilo y elegancia en Punta del Este. Habitación de lujo 
-                  de 160 metros cuadrados que ofrece una inigualable vista.</p>
-              </div>
+      <div class="img-fluid">
+      <img src="img/Panoramica_playa_idilica.jpg" alt="responsive image">
+      <marquee class="text-movie" behavior="alternate" direction="left"><h4>Dejenos sus datos en la seccion "Contacto" para ofrecerles las novedades</h4></marquee>
+      </div>
+    
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/granhotel.jpg" alt="foto del gran hotel" class="card-img-top">
+                <div class="card-body">
+                  <a href="https://www.puntagrand.com/" class="enlace-animado"><h3>Gran Hotel</h3></a>
+                  <p class="card-text">Distinguido por su inigualable vista al mar, THE GRAND HOTEL 
+                    es un oasis de lujo, estilo y elegancia en Punta del Este. Habitación de lujo 
+                    de 160 metros cuadrados que ofrece una inigualable vista.</p>
+                    <a href="#" class="btn btn-primary">reserva</a>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="img/fasano.jpg" alt="foto del hotel fasano" class="card-img-top">
-              <div class="card-body">
-                <a href="https://laspiedrasfasano.com/es/" class="enlace-animado"> <h3>Fasano Las Piedras</h3></a>
-                <p class="card-text">Con vistas panorámicas al campo, o una espaciosa y elegante suite 
-                  bungalow (100 m²) con cama king size queen size con sábanas de algodón egipcio
-                  y almohadas de plumas de ganso.</p>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/fasano.jpg" alt="foto del hotel fasano" class="card-img-top">
+                <div class="card-body">
+                  <a href="https://laspiedrasfasano.com/es/" class="enlace-animado"> <h3>Fasano Las Piedras</h3></a>
+                  <p class="card-text">Con vistas panorámicas al campo, o una espaciosa y elegante suite 
+                    bungalow (100 m²) con cama king size queen size con sábanas de algodón egipcio
+                    y almohadas de plumas de ganso.</p>
+                    <a href="#" class="btn btn-primary">reserva</a>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="img/garzon.jpg" alt="foto del hotel garzon" class="card-img-top">
-              <div class="card-body">
-                <a href="https://www.restaurantegarzon.com/el_hotel" class="enlace-animado"><h3>Garzon</h3></a>
-                <p class="card-text">Laguna Garzón Lodge fue concebido con habitaciones flotantes para 
-                permitir un fuerte vínculo entre el hombre y la naturaleza. Es un espacio de calma y 
-                contemplación que respeta al ambiente.</p>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/garzon.jpg" alt="foto del hotel garzon" class="card-img-top">
+                <div class="card-body">
+                  <a href="https://www.restaurantegarzon.com/el_hotel" class="enlace-animado"><h3>Garzon</h3></a>
+                  <p class="card-text">Laguna Garzón Lodge fue concebido con habitaciones flotantes para 
+                  permitir un fuerte vínculo entre el hombre y la naturaleza. Es un espacio de calma y 
+                  contemplación que respeta al ambiente.</p>
+                  <a href="#" class="btn btn-primary">reserva</a>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="img/lasusana.jpg" alt="foto del hotel la susana" class="card-img-top">
-              <div class="card-body">
-                <a href="https://es.lasusana.com/" class="enlace-animado"><h3>La Susana</h3></a>
-                <p class="card-text">La Susana se disfruta bajo la sombra de las pérgolas de bambú, con los pies 
-                en la arena, el sol ingresando suavemente, con el sonido del océano y espectaculares desde 
-                Punta del Este.</p>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/lasusana.jpg" alt="foto del hotel la susana" class="card-img-top">
+                <div class="card-body">
+                  <a href="https://es.lasusana.com/" class="enlace-animado"><h3>La Susana</h3></a>
+                  <p class="card-text">La Susana se disfruta bajo la sombra de las pérgolas de bambú, con los pies 
+                  en la arena, el sol ingresando suavemente, con el sonido del océano y espectaculares desde 
+                  Punta del Este.</p>
+                  <a href="#" class="btn btn-primary">reserva</a>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="img/vik.jpg" alt="foto del hotel vik jose ignacio" class="card-img-top">
-              <div class="card-body">
-                <a href="https://www.playavik.com/" class="enlace-animado"><h3>Vik Jose Ignacio</h3></a>
-                <p class="card-text">Nuestro Retreat de arquitectura impactante está ubicado en la cima de 
-                  una colina con vistas al mar y magníficas puestas de sol, con sus habitaciones lujosas.</p>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/vik.jpg" alt="foto del hotel vik jose ignacio" class="card-img-top">
+                <div class="card-body">
+                  <a href="https://www.playavik.com/" class="enlace-animado"><h3>Vik Jose Ignacio</h3></a>
+                  <p class="card-text">Nuestro Retreat de arquitectura impactante está ubicado en la cima de 
+                    una colina con vistas al mar y magníficas puestas de sol, con sus habitaciones lujosas.</p>
+                    <a href="#" class="btn btn-primary">reserva</a>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="img/liebres.jpg" alt="foto de hotel las liebres" class="card-img-top">
-              <div class="card-body">
-                <a href="https://www.lasliebres.com.uy/" class="enlace-animado"><h3>Las Liebres</h3></a>
-                <p class="card-text">Promovemos el concepto de “la casa habitable”; disfrutable 
-                  las 4 estaciones del año. Nos inspira poder ofrecer a nuestros huéspedes un 
-                  tipo de estancia exclusiva.</p>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/liebres.jpg" alt="foto de hotel las liebres" class="card-img-top">
+                <div class="card-body">
+                  <a href="https://www.lasliebres.com.uy/" class="enlace-animado"><h3>Las Liebres</h3></a>
+                  <p class="card-text">Promovemos el concepto de “la casa habitable”; disfrutable 
+                    las 4 estaciones del año. Nos inspira poder ofrecer a nuestros huéspedes un 
+                    tipo de estancia exclusiva.</p>
+                    <a href="#" class="btn btn-primary">reserva</a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  
-    <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h5>Oficina central</h5>
-                <address class="footer-address-icon">
-                  <i class="bi bi-house"></i>123 Calle Pinares<br>
-                  <i class="bi bi-phone"></i>Teléfono: 555-555-5555<br>
-                  <i class="bi bi-envelope"></i>Email: abarcare@gmail.com
-                </address>
+    
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h5>Oficina central</h5>
+                  <address class="footer-address-icon">
+                    <i class="bi bi-house"></i>123 Calle Pinares<br>
+                    <i class="bi bi-phone"></i>Teléfono: 555-555-5555<br>
+                    <i class="bi bi-envelope"></i>Email: abarcare@gmail.com
+                  </address>
+            </div>
+          <div class="col-sm-4 text-center">
+              <h5>Temas de Evaluacion</h5>
+          <ul class="list-inline">
+  <!-- prueba de logos en footer-->
+  <li>
+      <h6>Git</h6>
+      <h6>Html</h6>
+      <h6>Css</h6>
+      <h6>Bootstrap</h6>
+  </li>
+          </ul>
+      </div>
+          <div class="col-sm-4 text-right">
+          <h5>Modulo 1 Evaluacion 2023</h5>
+          <p>Coursera</p>
+          <p>Universidad Austral</p>
+          <p>Profesor: Ezequiel Lamónica</p>
           </div>
-        <div class="col-sm-4 text-center">
-            <h5>Temas de Evaluacion</h5>
-        <ul class="list-inline">
-<!-- prueba de logos en footer-->
-<li>
-    <h6>Git</h6>
-    <h6>Html</h6>
-    <h6>Css</h6>
-    <h6>Bootstrap</h6>
-</li>
-        </ul>
-    </div>
-        <div class="col-sm-4 text-right">
-        <h5>Modulo 1 Evaluacion 2023</h5>
-        <p>Coursera</p>
-        <p>Universidad Austral</p>
-        <p>Profesor: Ezequiel Lamónica</p>
-        </div>
-    </div>
-    </div>
-</body>
+      </div>
+      </div>
+  </body>
 
-<footer class="bg-light text-center text-blue">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-      <h6>Siguenos en nustras redes sociales</h6>
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-facebook"></i></a>
-      <!-- Twitter -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-twitter"></i></a>
-      <!-- Google -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-google"></i></a>
-      <!-- Instagram -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-instagram"></i></a>
-      <!-- Linkedin -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-linkedin"></i></a>
-      <!-- Github -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-github"></i></a>
-    </section>
-  </div>
-  <!-- Copyright -->
-  <div class="text-center p-3 text-white" style="background-color: black;">
-    © 2023 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Adrin Barca</a>
-  </div>
-</footer>
-</html>
+  <footer class="bg-light text-center text-blue">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <h6>Siguenos en nustras redes sociales</h6>
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-facebook"></i></a>
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-twitter"></i></a>
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-google"></i></a>
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-instagram"></i></a>
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-linkedin"></i></a>
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-github"></i></a>
+      </section>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3 text-white" style="background-color: black;">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Adrin Barca</a>
+    </div>
+  </footer>
+  </html>

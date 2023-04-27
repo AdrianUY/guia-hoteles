@@ -1,210 +1,246 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <!-- Compatibilidad IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Responsivo Metaetiqueta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel= "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
-    <!-- Link Estilos CSS -->
-    <link href="style.css" rel="stylesheet">
-    <!-- Iconos de Boostrap -->
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <title>Planes</title>
-</head>
-<body>
-  <!-- Navbar fixed -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Luxury Hotels</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- Compatibilidad IE -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Responsivo Metaetiqueta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel= "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
+        <!-- Link Estilos CSS -->
+        <link href="style.css" rel="stylesheet">
+        <!-- Iconos de Boostrap -->
+        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <title>Planes</title>
+    </head>
+    <body>
+      <!-- Navbar fixed -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Luxury Hotels</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="planes.html">Planes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reserva.html">Reservas</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        <div class="jumbotrom">
+            <h1>Planes</h1>
+        </div>
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Nosotros</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="planes.html">Planes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reservas</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn btn-outline-light" type="submit">Buscar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-    <div class="jumbotrom">
-        <h1>Planes</h1>
-      </div>
-      <div class="table-responsive">
-      <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">Calidad</th>
-            <th scope="col">Garzon</th>
-            <th scope="col">Fasano</th>
-            <th scope="col">La Susana</th>
-            <th scope="col">Gran Hotel</th>
-            <th scope="col">Vik Jose Ignacio</th>
-            <th scope="col">L'Auberge</th>
-            <th scope="col">Las Piedras</th>
-            <th scope="col">Aqua</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"><i class="bi bi-star-fill"></i></th>
-            <td>550 usd</td>
-            <td>500 usd</td>
-            <td>450 usd</td>
-            <td>400 usd</td>
-            <td>350 usd</td>
-            <td>300 usd</td>
-            <td>250 usd</td>
-            <td>200 usd</td>
-          </tr>
-          <tr>
-            <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
-            <td>550 usd</td>
-            <td>500 usd</td>
-            <td>450 usd</td>
-            <td>400 usd</td>
-            <td>350 usd</td>
-            <td>300 usd</td>
-            <td>250 usd</td>
-            <td>200 usd</td>
-          </tr>
-          <tr>
-            <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
-            <td>550 usd</td>
-            <td>500 usd</td>
-            <td>450 usd</td>
-            <td>400 usd</td>
-            <td>350 usd</td>
-            <td>300 usd</td>
-            <td>250 usd</td>
-            <td>200 usd</td>
-          <tr>
-            <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i></th>
-            <td>550 usd</td>
-            <td>500 usd</td>
-            <td>450 usd</td>
-            <td>400 usd</td>
-            <td>350 usd</td>
-            <td>300 usd</td>
-            <td>250 usd</td>
-            <td>200 usd</td>
-          <tr>
-            <th scope="row"></i><i class="bi bi-star-fill"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i></th>
-            <td>550 usd</td>
-            <td>500 usd</td>
-            <td>450 usd</td>
-            <td>400 usd</td>
-            <td>350 usd</td>
-            <td>300 usd</td>
-            <td>250 usd</td>
-            <td>200 usd</td>
-        </tbody>
-      </table>
-      </div>
-</body>
-<div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <h5>Oficina central</h5>
-            <address class="footer-address-icon">
-              <i class="bi bi-house"></i>123 Calle Pinares<br>
-              <i class="bi bi-phone"></i>Teléfono: 555-555-5555<br>
-              <i class="bi bi-envelope"></i>Email: abarcare@gmail.com
-            </address>
-      </div>
-    <div class="col-sm-4 text-center">
-        <h5>Temas de Evaluacion</h5>
-    <ul class="list-inline">
-<!-- prueba de logos en footer-->
-<li>
-<h6>Git</h6>
-<h6>Html</h6>
-<h6>Boostrap</h6>
-<h6>Css</h6>
-</li>
-    </ul>
-</div>
-    <div class="col-sm-4 text-right">
-    <h5>Modulo 1 Evaluacion 2023</h5>
-    <p>Coursera</p>
-    <p>Universidad Austral</p>
-    <p>Profesor: Ezequiel Lamónica</p>
-    </div>
-</div>
-</div>
-</body>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <!--lo que se mustra-->
 
-<footer class="bg-light text-center text-blue">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-      <h6>Siguenos en nustras redes sociales</h6>
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-facebook"></i></a>
-      <!-- Twitter -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-twitter"></i></a>
-      <!-- Google -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-google"></i></a>
-      <!-- Instagram -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-instagram"></i></a>
-      <!-- Linkedin -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-linkedin"></i></a>
-      <!-- Github -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-github"></i></a>
-    </section>
-  </div>
-  <!-- Copyright -->
-  <div class="text-center p-3 text-white" style="background-color: black;">
-    © 2023 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Adrin Barca</a>
-  </div>
-</footer>
-</html>
+            <div class="card" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <h2>Deberia mostrar un texto</h2>
+          <!--lo que se mustra-->
+
+          </div>
+        </div>
+
+
+          <div class="table-responsive">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Calidad</th>
+                <th scope="col">Garzon</th>
+                <th scope="col">Fasano</th>
+                <th scope="col">La Susana</th>
+                <th scope="col">Gran Hotel</th>
+                <th scope="col">Vik Jose Ignacio</th>
+                <th scope="col">L'Auberge</th>
+                <th scope="col">Las Piedras</th>
+                <th scope="col">Aqua</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><i class="bi bi-star-fill"></i></th>
+                <td>550 usd</td>
+                <td>500 usd</td>
+                <td>450 usd</td>
+                <td>400 usd</td>
+                <td>350 usd</td>
+                <td>300 usd</td>
+                <td>250 usd</td>
+                <td>200 usd</td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
+                <td>550 usd</td>
+                <td>500 usd</td>
+                <td>450 usd</td>
+                <td>400 usd</td>
+                <td>350 usd</td>
+                <td>300 usd</td>
+                <td>250 usd</td>
+                <td>200 usd</td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
+                <td>550 usd</td>
+                <td>500 usd</td>
+                <td>450 usd</td>
+                <td>400 usd</td>
+                <td>350 usd</td>
+                <td>300 usd</td>
+                <td>250 usd</td>
+                <td>200 usd</td>
+              <tr>
+                <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i></th>
+                <td>550 usd</td>
+                <td>500 usd</td>
+                <td>450 usd</td>
+                <td>400 usd</td>
+                <td>350 usd</td>
+                <td>300 usd</td>
+                <td>250 usd</td>
+                <td>200 usd</td>
+              <tr>
+                <th scope="row"></i><i class="bi bi-star-fill"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i></th>
+                <td>550 usd</td>
+                <td>500 usd</td>
+                <td>450 usd</td>
+                <td>400 usd</td>
+                <td>350 usd</td>
+                <td>300 usd</td>
+                <td>250 usd</td>
+                <td>200 usd</td>
+            </tbody>
+          </table>
+          </div>
+    </body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h5>Oficina central</h5>
+                <address class="footer-address-icon">
+                  <i class="bi bi-house"></i>123 Calle Pinares<br>
+                  <i class="bi bi-phone"></i>Teléfono: 555-555-5555<br>
+                  <i class="bi bi-envelope"></i>Email: abarcare@gmail.com
+                </address>
+          </div>
+        <div class="col-sm-4 text-center">
+            <h5>Temas de Evaluacion</h5>
+        <ul class="list-inline">
+    <!-- prueba de logos en footer-->
+    <li>
+    <h6>Git</h6>
+    <h6>Html</h6>
+    <h6>Boostrap</h6>
+    <h6>Css</h6>
+    </li>
+        </ul>
+    </div>
+        <div class="col-sm-4 text-right">
+        <h5>Modulo 1 Evaluacion 2023</h5>
+        <p>Coursera</p>
+        <p>Universidad Austral</p>
+        <p>Profesor: Ezequiel Lamónica</p>
+        </div>
+    </div>
+    </div>
+    </body>
+
+    <footer class="bg-light text-center text-blue">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+          <h6>Siguenos en nustras redes sociales</h6>
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-facebook"></i></a>
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-twitter"></i></a>
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-google"></i></a>
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-instagram"></i></a>
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-linkedin"></i></a>
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-github"></i></a>
+        </section>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3 text-white" style="background-color: black;">
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Adrin Barca</a>
+      </div>
+    </footer>
+    </html>
